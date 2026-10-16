@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - ElectroMart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: darkslategrey;">
+
+    <!-- Header -->
+    <header>
+
+        <h1>ElectroMart</h1>
+
+        <p>Buy and Sell Electronic Products</p>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="menu.html">Menu</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact Us</a>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Contact Introduction -->
+        <section>
+
+            <h2>Contact Us</h2>
+
+            <p>
+                Welcome to the ElectroMart Contact Us page.
+                If you have any questions about our products,
+                buying, selling or our website, you can contact us.
+            </p>
+
+            <p>
+                Fill out the contact form below and send us your
+                message. Our team will review your request.
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- Contact Information -->
+        <section>
+
+            <h2>Contact Information</h2>
+
+            <h3>Our Address</h3>
+
+            <p>
+                ElectroMart Electronics Market
+                <br>
+                Main Market
+                <br>
+                Pakistan
+            </p>
+
+            <h3>Phone Number</h3>
+
+            <p>
+                +92 300 1234567
+            </p>
+
+            <h3>Email Address</h3>
+
+            <p>
+                info@electromart.com
+            </p>
+
+            <h3>Business Hours</h3>
+
+            <p>
+                Monday - Saturday: 9:00 AM - 8:00 PM
+                <br>
+                Sunday: 11:00 AM - 6:00 PM
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- Contact Form -->
+        <section>
+
+            <h2>Send Us a Message</h2>
+
+            <form action="#" method="post">
+
+                <label for="name">Full Name:</label>
+                <br>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+                <br><br>
+
+                <label for="email">Email Address:</label>
+                <br>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <br>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                >
+
+                <br><br>
+
+                <label for="subject">Subject:</label>
+                <br>
+
+                <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Enter message subject"
+                    required
+                >
+
+                <br><br>
+
+                <label for="message">Your Message:</label>
+                <br>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="8"
+                    cols="50"
+                    placeholder="Write your message here..."
+                    required
+                ></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Send Message">
+
+                <input type="reset" value="Clear">
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- Buyer Support -->
+        <section>
+
+            <h2>For Buyers</h2>
+
+            <p>
+                If you have a question about a product, price,
+                availability or purchase, please provide the
+                product name in your message.
+            </p>
+
+            <form action="#" method="post">
+
+                <label for="buyer-name">Your Name:</label>
+                <br>
+
+                <input
+                    type="text"
+                    id="buyer-name"
+                    name="buyer-name"
+                    placeholder="Enter your name"
+                >
+
+                <br><br>
+
+                <label for="product-name">Product Name:</label>
+                <br>
+
+                <input
+                    type="text"
+                    id="product-name"
+                    name="product-name"
+                    placeholder="Enter product name"
+                >
+
+                <br><br>
+
+                <label for="buyer-message">Your Question:</label>
+                <br>
+
+                <textarea
+                    id="buyer-message"
+                    name="buyer-message"
+                    rows="6"
+                    cols="50"
+                    placeholder="Write your question..."
+                ></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Send Question">
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- Seller Support -->
+        <section>
+
+            <h2>For Sellers</h2>
+
+            <p>
+                If you want to sell your electronic products
+                through ElectroMart, contact us with your
+                product details.
+            </p>
+
+            <form action="#" method="post">
+
+                <label for="seller-name">Seller Name:</label>
+                <br>
+
+                <input
+                    type="text"
+                    id="seller-name"
+                    name="seller-name"
+                    placeholder="Enter your name"
+                >
+
+                <br><br>
+
+                <label for="seller-email">Email:</label>
+                <br>
+
+                <input
+                    type="email"
+                    id="seller-email"
+                    name="seller-email"
+                    placeholder="Enter your email"
+                >
+
+                <br><br>
+
+                <label for="seller-product">Product Name:</label>
+                <br>
+
+                <input
+                    type="text"
+                    id="seller-product"
+                    name="seller-product"
+                    placeholder="Enter product name"
+                >
+
+                <br><br>
+
+                <label for="product-category">Product Category:</label>
+                <br>
+
+                <select id="product-category" name="product-category">
+
+                    <option value="">Select Category</option>
+                    <option value="smartphones">Smartphones</option>
+                    <option value="laptops">Laptops</option>
+                    <option value="tablets">Tablets</option>
+                    <option value="headphones">Headphones</option>
+                    <option value="earbuds">Earbuds</option>
+                    <option value="smartwatches">Smart Watches</option>
+                    <option value="cameras">Cameras</option>
+                    <option value="televisions">Televisions</option>
+                    <option value="gaming">Gaming</option>
+                    <option value="accessories">Accessories</option>
+                    <option value="speakers">Speakers</option>
+                    <option value="printers">Printers</option>
+                    <option value="monitors">Monitors</option>
+                    <option value="networking">Networking</option>
+                    <option value="smart-home">Smart Home</option>
+                    <option value="other">Other</option>
+
+                </select>
+
+                <br><br>
+
+                <label for="seller-price">Product Price:</label>
+                <br>
+
+                <input
+                    type="number"
+                    id="seller-price"
+                    name="seller-price"
+                    placeholder="Enter product price"
+                >
+
+                <br><br>
+
+                <label for="seller-description">
+                    Product Description:
+                </label>
+
+                <br>
+
+                <textarea
+                    id="seller-description"
+                    name="seller-description"
+                    rows="8"
+                    cols="50"
+                    placeholder="Describe your product..."
+                ></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Submit Product">
+
+                <input type="reset" value="Clear">
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- Frequently Asked Questions -->
+        <section>
+
+            <h2>Frequently Asked Questions</h2>
+
+            <h3>How can I buy a product?</h3>
+
+            <p>
+                Go to the Menu page, select a product and
+                check its available information.
+            </p>
+
+            <h3>Can I sell my electronic products?</h3>
+
+            <p>
+                Yes. Sellers can contact us and provide
+                information about their electronic products.
+            </p>
+
+            <h3>What products can I sell?</h3>
+
+            <p>
+                You can sell smartphones, laptops, tablets,
+                headphones, cameras, gaming devices,
+                accessories and other electronic products.
+            </p>
+
+            <h3>How can I contact ElectroMart?</h3>
+
+            <p>
+                You can use our contact form, email address
+                or phone number provided above.
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- Social Links -->
+        <section>
+
+            <h2>Follow Us</h2>
+
+            <p>
+                Stay connected with ElectroMart through
+                our social media platforms.
+            </p>
+
+            <a href="#">Facebook</a>
+            <br><br>
+
+            <a href="#">Instagram</a>
+            <br><br>
+
+            <a href="#">YouTube</a>
+            <br><br>
+
+            <a href="#">TikTok</a>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>ElectroMart</h3>
+
+        <p>
+            Your online marketplace for buying and selling
+            electronic products.
+        </p>
+
+        <p>
+            <a href="index.html">Home</a> |
+            <a href="menu.html">Menu</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact Us</a>
+        </p>
+
+        <p>
+            Email: info@electromart.com
+        </p>
+
+        <p>
+            Phone: +92 300 1234567
+        </p>
+
+        <p>
+            &copy; 2026 ElectroMart. All Rights Reserved.
+        </p>
+
+    </footer>
+<script src="script.js"></script>
+</body>
+</body>
+
+</html>
